@@ -7,7 +7,7 @@ body{
     font-family: sans-serif;
 }
 .nav-bar{
-    background-color:black;
+    background-color:rgb(196, 118, 118);
     width: 100%;
     height: 8vh;
     padding: 2px;
@@ -69,12 +69,17 @@ body{
 
 }
 button{
-    border-radius: 5px;
+
     background-color:lightcoral;
     border-color: lightcoral;
+    border-radius: 7px;
+    margin: 10px;
+    margin-left: 70px;
+    padding: 20px;
+    
 }
 span{
-    color: red;
+    color: lightcoral;
 }
 .container-part1 h1{
     font-weight: 700px;
@@ -113,19 +118,24 @@ span{
     gap: 550px;
     margin-left: 50px;
     margin-right: 50px;
+    /* flex-wrap: wrap; */
 }
 .product-two p{
 width: 400px;
 }
 #product{
-    background-color:grey;
+    
      height: 73vh;
     width: 100%;
     display: flex;
     gap: 10px;
 }
+.product-detail:hover{
+transform: translateY(10px);
+transition: 1.2s;
+}
+
 .product-detail{
-    background-color: red;
     width: 30%;
     height: 78%;
     margin: 40px;
@@ -151,15 +161,79 @@ width: 400px;
     background-color: lightcoral;
     border-radius: 7px;
     margin: 10px;
-    margin-left: 20px;
+    margin-left: 70px;
     padding: 20px;
     justify-content: center;
 
 
 }
-
-
-
+ #btn{
+    background-color: lightcoral;
+    border-radius: 7px;
+    margin: 10px;
+    margin-left: 700px;
+    padding: 20px;
+    
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: rgb(236, 63, 135);
+    transition: 0.3s;
+    transform: scale(1.2);
+    
+}
+#know{
+    margin: 40px;
+    height: 73vh;
+    width: 100%;
+    
+}
+#know img{
+    margin-left: 500px;
+    width: 400px;
+    margin-top: 50px;
+}
+#know p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+.bm{
+    background-color: rgb(252, 197, 206);
+    color: black;
+    
+}
+.ser{
+    background-color: black;
+    width: 100%;
+    height: 83vh;
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.ser1{
+    margin-top: 40px;
+    width:50% ;
+    height:60vh ;
+    background-color: blueviolet;
+}
+.ser2{
+    margin-top: 40px;
+    width:50% ;
+    height: 60vh;
+    background-color: red;
+}
+.ser3{
+    margin-top: 40px;
+    width: 60%;
+    height: 60vh;
+    background-color: aqua;
+}
 
 
 
