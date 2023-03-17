@@ -168,7 +168,7 @@ transition: 1.2s;
 
 }
  #btn{
-    background-color: lightcoral;
+    background-color: rgb(211, 106, 106);
     border-radius: 7px;
     margin: 10px;
     margin-left: 700px;
@@ -208,35 +208,175 @@ button:hover{
     
 }
 .ser{
-    background-color: black;
+    
     width: 100%;
     height: 83vh;
     justify-content: space-between;
     display: flex;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .ser1{
     margin-top: 40px;
     width:50% ;
     height:60vh ;
-    background-color: blueviolet;
+    
 }
 .ser2{
     margin-top: 40px;
     width:50% ;
     height: 60vh;
-    background-color: red;
+    
 }
 .ser3{
     margin-top: 40px;
     width: 60%;
     height: 60vh;
-    background-color: aqua;
+    
 }
+.ser1 img{
+    width: 70%;
+    height: 45%;
+    margin: 5px;
+    margin-left: 20px;
+}
+.ser1 h2{
+    margin-left: 100px;
+    font-size: 24px;
+}
+.ser1 p{
+    font-weight: 500px;
+    line-height: 25px;
+    color: rgb(24, 10, 10);
+    margin: 20px;
+}
+.ser2 img{
+    width: 70%;
+    height: 45%;
+    margin: 5px;
+    margin-left: 20px;
+}
+.ser2 h2{
+    margin-left: 100px;
+    font-size: 24px;
+}
+.ser2 p{
+    font-weight: 500px;
+    line-height: 25px;
+    color: rgb(24, 10, 10);
+    margin: 20px;
+}
+.ser3 img{
+    width: 70%;
+    height: 45%;
+    margin: 5px;
+    margin-left: 20px;
+}
+.ser3 h2{
+    margin-left: 100px;
+    font-size: 24px;
+}
+.ser3 p{
+    font-weight: 500px;
+    line-height: 25px;
+    color: rgb(24, 10, 10);
+    margin: 20px;
+}
+marquee {
+color:rgb(24, 10, 10);
+background-color: lightcoral;
+margin-left:400px;
+margin-right: 400px;
+font-weight: 500;
+}
+.serve{
+    background-color: rgb(243, 204, 211);
+   
+}
+.image img{
+    width: 70%;
+    height: 65%;
+    margin: 5px;
+    margin-left: 20px;
+}
+.ford{
+    display: flex;
+    font-size: 24px;
+    gap: 100px;
+    line-height: 30px;
+    margin-left: 1px;
+    /* position: absolute; */
+}
+.ford label{
+    color: rgb(46, 7, 28);
+}
+.sec{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+    gap:0px;
+    margin-right
+}
+h3{
+    text-align : center;
+    margin-top : 130px;
+    font-size: 60px;
+}
+.bdy{
+   
+    
+      background: url(https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat; 
+     background-size: 100rem;
+    background-position: 100%;
+    background-position-x: 0px;
+    height: 73vh;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+}
+#bn {
+    padding: 20px;
+    height: 10px;
+    padding-bottom: 30px
 
+}
+.bdy img{
+    width: 100%;
+    height: 200vh;
+    /* position: relative; */
 
-
-
-
-
+    
+}
+.card{
+    background-image: url(https://images.pexels.com/photos/14493595/pexels-photo-14493595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    position: relative;
+}
+.card1{
+    background-color: rgb(247, 165, 219);
+    width: 30%;
+    height: 63vh;
+    margin: 60px;
+    /* margin-top: 65px; */
+    padding-top: 60px;
+    border-radius: 30px;
+    margin-left: 550px;
+}
+#frm{
+    margin-left: 90px;
+    line-height: 30px;
+    margin-top: 70px;
+}
+.card1:hover{
+    border-color: rgb(233, 81, 81);
+    box-shadow: 2px 2px 2px 2px rgb(179, 77, 179);
+    transform: scale(1.1);
+    transition:1.3s;
+}
