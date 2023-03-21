@@ -7,12 +7,14 @@ body{
     font-family: sans-serif;
 }
 .nav-bar{
-    background-color:rgb(196, 118, 118);
+    /* background-color:rgb(196, 118, 118); */
+    background-color: #6B8E23;
     width: 100%;
     height: 8vh;
     padding: 2px;
     display: flex;
     gap: 650px;
+    
     
 }
 .nav-bar ul{
@@ -28,7 +30,7 @@ body{
 }
 .nav-bar ul li a:hover{
     background-color: white;
-    color: lightcoral;
+    color:#080808;
     padding: 5px;
     cursor: pointer;
     border-radius: 10px;
@@ -36,7 +38,7 @@ body{
 
 }
 .nav-bar ul li a{
-    color: lightpink;
+    color:#fdfdfd;
     text-decoration: none;
 }
 .logo img{
@@ -70,16 +72,16 @@ body{
 }
 button{
 
-    background-color:lightcoral;
-    border-color: lightcoral;
+    background-color:#6B8E23;
+    border-color: #6B8E23;
     border-radius: 7px;
     margin: 10px;
     margin-left: 70px;
-    padding: 20px;
+    padding: 10px;
     
 }
 span{
-    color: lightcoral;
+    color: #6B8E23;
 }
 .container-part1 h1{
     font-weight: 700px;
@@ -104,8 +106,8 @@ span{
 
 }
 .products img{
-    height: 450px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
 }
 .product-one p{
     font-size: 18px;
@@ -115,13 +117,17 @@ span{
 }
 .products{
     display: flex;
-    gap: 550px;
+     gap: 0px;
+   justify-content: space-around; /* gap: 50px; */
     margin-left: 50px;
     margin-right: 50px;
     /* flex-wrap: wrap; */
 }
 .product-two p{
 width: 400px;
+line-height: 1.3;
+font-weight: 700px;
+font-size: 18px;
 }
 #product{
     
@@ -137,8 +143,10 @@ transition: 1.2s;
 
 .product-detail{
     width: 30%;
-    height: 78%;
+    height: 82%;
     margin: 40px;
+    background-color: rgb(219, 238, 180,0.5);
+    border-radius: 30px;
 }
 .product-detail img{
     width: 80%;
@@ -158,21 +166,21 @@ transition: 1.2s;
     
 }
 .product-detail button{
-    background-color: lightcoral;
+    background-color:  #6B8E23;
     border-radius: 7px;
     margin: 10px;
     margin-left: 70px;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
 
 
 }
  #btn{
-    background-color: rgb(211, 106, 106);
+    background-color: #6B8E23;
     border-radius: 7px;
     margin: 10px;
     margin-left: 700px;
-    padding: 20px;
+    padding: 10px;
     
 }
 button a {
@@ -180,19 +188,21 @@ button a {
     color: black;
 }
 button:hover{
-    background-color: rgb(236, 63, 135);
+    background-color:  #5e8510;
     transition: 0.3s;
-    transform: scale(1.2);
+    transform: scale(1.1);
     
 }
 #know{
-    margin: 40px;
-    height: 73vh;
-    width: 100%;
+    margin: 30px;
+    height: 53vh;
+    width: 60%;
+    display: flex;
+    gap: 250px;
     
 }
 #know img{
-    margin-left: 500px;
+    margin-left: 100px;
     width: 400px;
     margin-top: 50px;
 }
@@ -200,10 +210,23 @@ button:hover{
     font-size: 18px;
     font-weight: 500;
     line-height: 25px;
-    text-align: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+.kn1 img{
+    margin-top: 200px;
+
+}
+.kn2 p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 4px;
+    width: 500px;
+    padding-top: 100px;
+
 }
 .bm{
-    background-color: rgb(252, 197, 206);
+    /* background-color: rgb(252, 197, 206); */
     color: black;
     
 }
@@ -284,15 +307,15 @@ button:hover{
 }
 marquee {
 color:rgb(24, 10, 10);
-background-color: lightcoral;
+background-color: #6B8E23;
 margin-left:400px;
 margin-right: 400px;
 font-weight: 500;
 }
-.serve{
+/* .serve{
     background-color: rgb(243, 204, 211);
    
-}
+} */
 .image img{
     width: 70%;
     height: 65%;
@@ -307,6 +330,14 @@ font-weight: 500;
     margin-left: 1px;
     /* position: absolute; */
 }
+/* .form{
+    background-color: #080808;
+   margin-bottom: 100px;
+} */
+
+
+
+
 .ford label{
     color: rgb(46, 7, 28);
 }
@@ -319,13 +350,14 @@ font-weight: 500;
 
 h3{
     text-align : center;
-    margin-top : 130px;
+    margin-top : 110px;
+    padding-top: 40px;
     font-size: 60px;
 }
 .bdy{
    
     
-      background: url(https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+      /* background: url(https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
     background-repeat: no-repeat; 
      background-size: 100rem;
     background-position: 100%;
@@ -334,6 +366,7 @@ h3{
     margin: 30px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 0px;
     
     
 }
@@ -343,13 +376,13 @@ h3{
     padding-bottom: 30px
 
 }
-.bdy img{
+/* .bdy img{
     width: 100%;
     height: 200vh;
     /* position: relative; */
 
     
-}
+*/
 .card{
     background-image: url(https://images.pexels.com/photos/14493595/pexels-photo-14493595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat:no-repeat;
@@ -360,14 +393,15 @@ h3{
     position: relative;
 }
 .card1{
-    background-color: rgb(247, 165, 219);
-    width: 30%;
-    height: 63vh;
+    background-color:rgba(94, 133, 16,0.5);
+    width: 25%;
+    height: 53vh;
     margin: 60px;
     /* margin-top: 65px; */
-    padding-top: 60px;
+    padding-top: 20px;
     border-radius: 30px;
     margin-left: 550px;
+    margin-top: 90px;
 }
 #frm{
     margin-left: 90px;
@@ -375,8 +409,23 @@ h3{
     margin-top: 70px;
 }
 .card1:hover{
-    border-color: rgb(233, 81, 81);
-    box-shadow: 2px 2px 2px 2px rgb(179, 77, 179);
+    border-color: rgb(94, 133, 16);
+    /* box-shadow: 2px 2px 2px 2px rgb(82, 216, 49); */
     transform: scale(1.1);
     transition:1.3s;
+}
+body{
+    background-color: rgba(131, 168, 56, 0.5);
+}
+#gb{
+    background-image: url(https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    /* background-repeat: repeat;
+    background-size: cover; */
+}
+.singlediv{
+    background-color:rgba(94, 133, 16,0.5) ;
+    width: 35%;
+    height: 36rem;
+    margin-left: 32rem;
+
 }
