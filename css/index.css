@@ -330,11 +330,18 @@ font-weight: 500;
     margin-left: 1px;
     /* position: absolute; */
 }
-/* .form{
-    background-color: #080808;
+.form{
    margin-bottom: 100px;
-} */
+   padding: 10px 20px;
 
+}
+.form:hover{
+    background-color: rgba(94, 133, 16,0.9) ;
+    /* transform: translateZ(1);
+    transition:1s; */
+    transform: translateX(15px);
+transition: 1.2s;
+}
 
 
 
@@ -376,21 +383,26 @@ h3{
     padding-bottom: 30px
 
 }
-/* .bdy img{
-    width: 100%;
-    height: 200vh;
-    /* position: relative; */
+ .bdy{
+    /* width: 100%;
+    height: 200vh; */
+    
+    
+ }
+ .bdy{
+    background-image: url(https://images.pexels.com/photos/4198143/pexels-photo-4198143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+ }
 
     
-*/
 .card{
-    background-image: url(https://images.pexels.com/photos/14493595/pexels-photo-14493595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    /* background-image: url(https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     height: 100vh;
-    padding-top: 60px;
-    position: relative;
+   
+    
 }
 .card1{
     background-color:rgba(94, 133, 16,0.5);
@@ -418,9 +430,9 @@ body{
     background-color: rgba(131, 168, 56, 0.5);
 }
 #gb{
-    background-image: url(https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    /* background-repeat: repeat;
-    background-size: cover; */
+    background-image: url(https://images.pexels.com/photos/4198143/pexels-photo-4198143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: repeat;
+    /* background-size: cover;  */
 }
 .singlediv{
     background-color:rgba(94, 133, 16,0.5) ;
@@ -428,4 +440,7 @@ body{
     height: 36rem;
     margin-left: 32rem;
 
+}
+.orderrr{
+    padding-top: px;
 }
